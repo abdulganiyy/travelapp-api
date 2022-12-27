@@ -1,0 +1,38 @@
+Arguments: 
+  /root/.nvm/versions/node/v16.14.1/bin/node /mnt/c/Users/abdulganiyy/AppData/Roaming/npm/node_modules/yarn/bin/yarn.js add express jsonwebtoken
+
+PATH: 
+  /root/.nvm/versions/node/v16.14.1/bin:/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PostgreSQL/14/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/abdulganiyy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/abdulganiyy/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/abdulganiyy/AppData/Roaming/npm:/mnt/c/Users/abdulganiyy/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Program Files/heroku/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
